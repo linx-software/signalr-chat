@@ -1,0 +1,12 @@
+body {
+    padding: 20px;
+    margin: 0;
+  }
+  
+  body,
+  input
+  {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #333333;
+  }

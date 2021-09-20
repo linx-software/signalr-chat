@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SignalR chat demo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.10/signalr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>User</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="userInput" /></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="messageInput" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="sendSignalRButton" value="Send SignalR Message" />&nbsp;<input type="button" id="sendRestButton" value="Send REST Message" /></td>
+            </tr>
+        </table>
+        <hr />
+        <div>
+            <ul id="messagesList"></ul>
+        </div>
+        <script src="js/chat.js"></script>
+    </body>
+</html>
