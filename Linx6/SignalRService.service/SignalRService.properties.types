@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "YQnX",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "message",
+          "Name": "message",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "WZpU",
+      "Properties": [
+        {
+          "Id": "user",
+          "Name": "user",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "message",
+          "Name": "message",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "UGf4",
+    "Name": "HubUrl",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8080/chathub"
+  },
+  {
+    "Id": "aF3c",
+    "Name": "RestUrl",
+    "Type": "Compiled:String",
+    "Value": "http://localhost:8081"
+  }
+]

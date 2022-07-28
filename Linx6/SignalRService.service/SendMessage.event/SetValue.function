@@ -1,0 +1,46 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Generated:WZpU",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"user\":{\"LinxExpression\":\"[PARSED]\"}, \"message\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "user"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.MethodParameters.user",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "message"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.MethodParameters.message",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Generated:WZpU",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:WZpU"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
